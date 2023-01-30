@@ -1,0 +1,647 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/20.1
+vcol_parity
+Z0 !s110 1674810012
+!i10b 1
+!s100 289BAnRNWhB6RO1a`Hz:c3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQ1MGg7nXR]kfoRHGGj4N<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/MyNote/Desktop/cad/ca2
+w1674809182
+8C:\Users\MyNote\Desktop\cad\ca2\colParity\col_parity.v
+FC:\Users\MyNote\Desktop\cad\ca2\colParity\col_parity.v
+!i122 61
+Z4 L0 2 42
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1674810011.000000
+!s107 C:\Users\MyNote\Desktop\cad\ca2\colParity\col_parity.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\colParity\col_parity.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vcol_parity_curr_depth
+R0
+!i10b 1
+!s100 ^kgP:S8Ala:012hSf[1kj3
+R1
+I1N2W9hSZ=1YRW4DdLhY:b2
+R2
+R3
+Z8 w1673449998
+8C:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_curr_depth.v
+FC:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_curr_depth.v
+!i122 62
+Z9 L0 2 24
+R5
+r1
+!s85 0
+31
+Z10 !s108 1674810012.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_curr_depth.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_curr_depth.v|
+!i113 1
+R6
+R7
+vcol_parity_pre_depth
+R0
+!i10b 1
+!s100 F@20e<RZ?^>mKh51mf]aW3
+R1
+IUYba^C=[78`e@6I^na[oT2
+R2
+R3
+R8
+8C:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_pre_depth.v
+FC:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_pre_depth.v
+!i122 63
+R9
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_pre_depth.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/colParity/col_parity_pre_depth.v|
+!i113 1
+R6
+R7
+vColparCU
+!s110 1674822591
+!i10b 1
+!s100 3CDNC;5n558IOeRS]BNMi3
+R1
+IXXMRNz8PmgEPGAG7]BCFa3
+R2
+R3
+w1674822588
+8C:/Users/MyNote/Desktop/cad/ca2/colParity/Colparity-controller.v
+FC:/Users/MyNote/Desktop/cad/ca2/colParity/Colparity-controller.v
+!i122 107
+R4
+R5
+r1
+!s85 0
+31
+!s108 1674822591.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/colParity/Colparity-controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/colParity/Colparity-controller.v|
+!i113 1
+R6
+R7
+n@colpar@c@u
+vColparDP
+Z11 !s110 1674827272
+!i10b 1
+!s100 FC9<o0ee2Gd2C69?5eOe?1
+R1
+I?4FdJdUhX8Y3HIH=;g@5A3
+R2
+R3
+w1674827260
+Z12 8C:\Users\MyNote\Desktop\cad\ca2\colParity\Calparity-datapath.v
+Z13 FC:\Users\MyNote\Desktop\cad\ca2\colParity\Calparity-datapath.v
+!i122 111
+L0 2 82
+R5
+r1
+!s85 0
+31
+Z14 !s108 1674827272.000000
+Z15 !s107 C:\Users\MyNote\Desktop\cad\ca2\colParity\Calparity-datapath.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\colParity\Calparity-datapath.v|
+!i113 1
+R6
+R7
+n@colpar@d@p
+vColparityDP
+!s110 1674804306
+!i10b 1
+!s100 f7ge2A`IRe?l3CgPVmNi02
+R1
+I:NAZKhgc>QO9GH6l>7kGU1
+R2
+R3
+w1674804303
+R12
+R13
+!i122 21
+L0 2 76
+R5
+r1
+!s85 0
+31
+!s108 1674804306.000000
+R15
+R16
+!i113 1
+R6
+R7
+n@colparity@d@p
+vcontroller
+!s110 1674824669
+!i10b 1
+!s100 ]6[_jjTUomRI?`2lViU6z0
+R1
+IDNK=l5TSM2Ff3Fa5<VeWS1
+R2
+R3
+w1674824661
+Z17 8C:/Users/MyNote/Desktop/cad/ca2/controller.v
+Z18 FC:/Users/MyNote/Desktop/cad/ca2/controller.v
+!i122 109
+L0 2 97
+R5
+r1
+!s85 0
+31
+!s108 1674824669.000000
+Z19 !s107 C:/Users/MyNote/Desktop/cad/ca2/controller.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/controller.v|
+!i113 1
+R6
+R7
+vController
+!s110 1674808589
+!i10b 1
+!s100 lmemahGHAIf;=?EWj;Mlg1
+R1
+I3DXfH:h3b^dHV8BX[]Z2;0
+R2
+R3
+w1674808582
+R17
+R18
+!i122 29
+L0 2 87
+R5
+r1
+!s85 0
+31
+!s108 1674808589.000000
+R19
+R20
+!i113 1
+R6
+R7
+n@controller
+vCounter
+Z21 !s110 1674810016
+!i10b 1
+!s100 _2kPznza7EID;B0KQeA3J3
+R1
+IiMo6h9b]3moa[^I0lgn;:3
+R2
+R3
+w1653605474
+8C:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval-counter.v
+FC:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval-counter.v
+!i122 76
+L0 3 23
+R5
+r1
+!s85 0
+31
+Z22 !s108 1674810016.000000
+!s107 C:\Users\MyNote\Desktop\cad\ca2\revaluate\ISA.v|C:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval-counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval-counter.v|
+!i113 1
+R6
+R7
+n@counter
+vcounter25
+Z23 !s110 1674810013
+!i10b 1
+!s100 [YDkQY@l?_<b_nm@SGIIm0
+R1
+IGIb?:aN[fH0O2;U;6QJ^n1
+R2
+R3
+R8
+8C:/Users/MyNote/Desktop/cad/ca2/colParity/counter25.v
+FC:/Users/MyNote/Desktop/cad/ca2/colParity/counter25.v
+!i122 64
+R9
+R5
+r1
+!s85 0
+31
+Z24 !s108 1674810013.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/colParity/counter25.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/colParity/counter25.v|
+!i113 1
+R6
+R7
+vcounter64
+R23
+!i10b 1
+!s100 cfIC941B<lndVQobKaTzQ1
+R1
+I>SnLbim0ebd@:9^fFT9oZ0
+R2
+R3
+R8
+8C:/Users/MyNote/Desktop/cad/ca2/colParity/counter64.v
+FC:/Users/MyNote/Desktop/cad/ca2/colParity/counter64.v
+!i122 65
+R9
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/MyNote/Desktop/cad/ca2/colParity/counter64.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/colParity/counter64.v|
+!i113 1
+R6
+R7
+vDataPath
+Z25 !s110 1674822269
+!i10b 1
+!s100 kD81@=4N6?kSXnkJ1Nj7e3
+R1
+I`KQVR>c5eM:UMIMz]7zAY0
+R2
+R3
+w1674821008
+Z26 8C:/Users/MyNote/Desktop/cad/ca2/DataPath.v
+Z27 FC:/Users/MyNote/Desktop/cad/ca2/DataPath.v
+!i122 103
+Z28 L0 2 54
+R5
+r1
+!s85 0
+31
+Z29 !s108 1674822269.000000
+Z30 !s107 C:/Users/MyNote/Desktop/cad/ca2/DataPath.v|
+Z31 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/DataPath.v|
+!i113 1
+R6
+R7
+n@data@path
+vdatapath
+!s110 1674808384
+!i10b 1
+!s100 RhJV>7XE@95N_Tg46F@DP0
+R1
+I6e7XGS<BQKSI?L5ZSm0KF0
+R2
+R3
+w1674806661
+R26
+R27
+!i122 25
+R28
+R5
+r1
+!s85 0
+31
+!s108 1674808383.000000
+R30
+R31
+!i113 1
+R6
+R7
+vfile_reader
+R11
+!i10b 1
+!s100 ?L8I8XRjQJ9<S==^lYX?N0
+R1
+I79F]0N8GdT420UG4J3;9b2
+R2
+R3
+w1674827203
+8C:\Users\MyNote\Desktop\cad\ca2\colParity\file_reader.v
+FC:\Users\MyNote\Desktop\cad\ca2\colParity\file_reader.v
+!i122 110
+L0 2 39
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:\Users\MyNote\Desktop\cad\ca2\colParity\file_reader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\colParity\file_reader.v|
+!i113 1
+R6
+R7
+vfile_writer
+!s110 1674810461
+!i10b 1
+!s100 NDN543YW@[C<7>QU9[KP01
+R1
+IXYazHjB8?XT?DLcMmEBIo3
+R2
+R3
+w1674810438
+8C:\Users\MyNote\Desktop\cad\ca2\colParity\file_writer.v
+FC:\Users\MyNote\Desktop\cad\ca2\colParity\file_writer.v
+!i122 89
+L0 2 23
+R5
+r1
+!s85 0
+31
+!s108 1674810461.000000
+!s107 C:\Users\MyNote\Desktop\cad\ca2\colParity\file_writer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\colParity\file_writer.v|
+!i113 1
+R6
+R7
+vMemory
+Z32 !s110 1674810015
+!i10b 1
+!s100 ^975i?<VHb<N63PdJa^cU0
+R1
+IL4SZWLNC_GdGDEOHA]2[Y3
+R2
+R3
+w1653543430
+8C:/Users/MyNote/Desktop/cad/ca2/revaluate/memory.v
+FC:/Users/MyNote/Desktop/cad/ca2/revaluate/memory.v
+!i122 72
+L0 4 18
+R5
+r1
+!s85 0
+31
+Z33 !s108 1674810015.000000
+!s107 C:\Users\MyNote\Desktop\cad\ca2\revaluate\ISA.v|C:/Users/MyNote/Desktop/cad/ca2/revaluate/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/revaluate/memory.v|
+!i113 1
+R6
+R7
+n@memory
+vMUX3Dto1
+R32
+!i10b 1
+!s100 aZ>0>U88nX`W1a2``P33]1
+R1
+ICjI1cioI[^ShU8l1g_IAV0
+R2
+R3
+w1653532348
+8C:/Users/MyNote/Desktop/cad/ca2/revaluate/MUX3Dto1.v
+FC:/Users/MyNote/Desktop/cad/ca2/revaluate/MUX3Dto1.v
+!i122 73
+L0 3 9
+R5
+r1
+!s85 0
+31
+R33
+!s107 C:\Users\MyNote\Desktop\cad\ca2\revaluate\ISA.v|C:/Users/MyNote/Desktop/cad/ca2/revaluate/MUX3Dto1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/revaluate/MUX3Dto1.v|
+!i113 1
+R6
+R7
+n@m@u@x3@dto1
+vPermuteCU
+Z34 !s110 1674810014
+!i10b 1
+!s100 Xbm;n]ENaOjigKLdO>NLe2
+R1
+IQTm>N[BHmInL523XfdO9K3
+R2
+R3
+w1674741571
+8C:\Users\MyNote\Desktop\cad\ca2\permute\Permute-Controller.v
+FC:\Users\MyNote\Desktop\cad\ca2\permute\Permute-Controller.v
+!i122 70
+L0 2 55
+R5
+r1
+!s85 0
+31
+Z35 !s108 1674810014.000000
+!s107 C:\Users\MyNote\Desktop\cad\ca2\permute\Permute-Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\permute\Permute-Controller.v|
+!i113 1
+R6
+R7
+n@permute@c@u
+vPermuteDP
+R32
+!i10b 1
+!s100 `aULYBT;1LIBU:fFjX4>z3
+R1
+IiL7o6k`^DTNciHhRc1joN3
+R2
+R3
+w1674741575
+8C:/Users/MyNote/Desktop/cad/ca2/permute/Permute-Datapath.v
+FC:/Users/MyNote/Desktop/cad/ca2/permute/Permute-Datapath.v
+!i122 71
+L0 2 30
+R5
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/MyNote/Desktop/cad/ca2/permute/Permute-Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/permute/Permute-Datapath.v|
+!i113 1
+R6
+R7
+n@permute@d@p
+vPermuter
+R34
+!i10b 1
+!s100 L^:[[X_NP20Kg10KZihN@1
+R1
+IJb8Eh>?Ll3FVb=Ck4ZVRz1
+R2
+R3
+w1673450004
+8C:/Users/MyNote/Desktop/cad/ca2/permute/Permuter.v
+FC:/Users/MyNote/Desktop/cad/ca2/permute/Permuter.v
+!i122 69
+L0 2 19
+R5
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/MyNote/Desktop/cad/ca2/permute/Permuter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/permute/Permuter.v|
+!i113 1
+R6
+R7
+n@permuter
+vreader
+Z36 !s110 1674810422
+!i10b 1
+!s100 ?Y5;3[HS_4^;U:mAdkg]X1
+R1
+I:]RXfRFX8N[;A0b6HBc1h1
+R2
+R3
+w1674810417
+8C:\Users\MyNote\Desktop\cad\ca2\read.v
+FC:\Users\MyNote\Desktop\cad\ca2\read.v
+!i122 86
+L0 2 14
+R5
+r1
+!s85 0
+31
+Z37 !s108 1674810422.000000
+!s107 C:\Users\MyNote\Desktop\cad\ca2\read.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\read.v|
+!i113 1
+R6
+R7
+vregister25b
+R34
+!i10b 1
+!s100 G6jo02@h[lFb]lU5X=]2U1
+R1
+Ijc1d5IK4:]aa80c;KP9`n0
+R2
+R3
+R8
+8C:/Users/MyNote/Desktop/cad/ca2/colParity/register25b.v
+FC:/Users/MyNote/Desktop/cad/ca2/colParity/register25b.v
+!i122 68
+L0 2 18
+R5
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/MyNote/Desktop/cad/ca2/colParity/register25b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/colParity/register25b.v|
+!i113 1
+R6
+R7
+vRevaluate
+R21
+!i10b 1
+!s100 MLo4gcN_4PT7G@P8m39Dh1
+R1
+IIBZXT@P`3V>J@Lmf5fg;?0
+R2
+R3
+w1674738562
+8C:/Users/MyNote/Desktop/cad/ca2/revaluate/revaluate.v
+FC:/Users/MyNote/Desktop/cad/ca2/revaluate/revaluate.v
+!i122 77
+L0 3 35
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:\Users\MyNote\Desktop\cad\ca2\revaluate\ISA.v|C:/Users/MyNote/Desktop/cad/ca2/revaluate/revaluate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/revaluate/revaluate.v|
+!i113 1
+R6
+R7
+n@revaluate
+vRevaluateCU
+R21
+!i10b 1
+!s100 W2^gj62N_<Pz?XcfS5V<<3
+R1
+IZf4U0BNDjBiGXkU_=CJfX3
+R2
+R3
+w1674738560
+8C:\Users\MyNote\Desktop\cad\ca2\revaluate\Reval-controller.v
+FC:\Users\MyNote\Desktop\cad\ca2\revaluate\Reval-controller.v
+!i122 75
+L0 3 55
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:\Users\MyNote\Desktop\cad\ca2\revaluate\ISA.v|C:\Users\MyNote\Desktop\cad\ca2\revaluate\Reval-controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\revaluate\Reval-controller.v|
+!i113 1
+R6
+R7
+n@revaluate@c@u
+vRevaluateDP
+R21
+!i10b 1
+!s100 ?nbcY0O2L;zR?HRQVol5V1
+R1
+I>S4>Xj>JUD2QhjX7EZf6=1
+R2
+R3
+w1653602550
+8C:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval_dp.v
+FC:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval_dp.v
+!i122 74
+L0 3 88
+R5
+r1
+!s85 0
+31
+R33
+!s107 C:\Users\MyNote\Desktop\cad\ca2\revaluate\ISA.v|C:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval_dp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/revaluate/Reval_dp.v|
+!i113 1
+R6
+R7
+n@revaluate@d@p
+vTB
+R25
+!i10b 1
+!s100 <3BS>6zVj9OoZN_0>A7c53
+R1
+I_5WBfR4Yj61GjXe0D^2n93
+R2
+R3
+w1674822261
+8C:/Users/MyNote/Desktop/cad/ca2/TB.v
+FC:/Users/MyNote/Desktop/cad/ca2/TB.v
+!i122 105
+L0 3 65
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/MyNote/Desktop/cad/ca2/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/TB.v|
+!i113 1
+R6
+R7
+n@t@b
+vwriter
+R36
+!i10b 1
+!s100 e>ScW]aBXhfA`iKH=R`ze1
+R1
+IeaJ=l;R=<Nh?_oCAZU2D=1
+R2
+R3
+w1674810411
+8C:\Users\MyNote\Desktop\cad\ca2\write.v
+FC:\Users\MyNote\Desktop\cad\ca2\write.v
+!i122 87
+L0 2 22
+R5
+r1
+!s85 0
+31
+R37
+!s107 C:\Users\MyNote\Desktop\cad\ca2\write.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MyNote\Desktop\cad\ca2\write.v|
+!i113 1
+R6
+R7

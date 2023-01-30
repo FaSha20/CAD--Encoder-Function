@@ -1,0 +1,364 @@
+# Compile of TB.v failed with 1 errors.
+# Compile of TB.v failed with 1 errors.
+# Compile of TB.v was successful.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 19:14:50 on Jan 27,2023
+# Loading work.TB
+run -all
+#          -1
+# Compile of shift_reg.v failed with 3 errors.
+# Compile of shift_reg.v was successful.
+# Compile of TB.v was successful.
+# Compile of rotate.v was successful.
+# Compile of rotate_DP.v was successful.
+# Compile of rotate_CU.v was successful.
+# Compile of decoder.v was successful.
+# Compile of shift_reg.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of shift_reg.v was successful.
+add wave -position end  sim:/TB/start
+add wave -position end  sim:/TB/clk
+add wave -position end  sim:/TB/rst
+add wave -position end  sim:/TB/ld
+add wave -position end  sim:/TB/ld2
+add wave -position end  sim:/TB/ps
+add wave -position end  sim:/TB/ns
+# Break key hit
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 14
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# Loading work.rotate_CU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'co'.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr File: C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v Line: 16
+# ** Error: (vsim-3043) Unresolved reference to 'dcder'.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 17
+restart -f
+# No Design Loaded!
+# Compile of rotate_DP.v was successful.
+restart -f
+# No Design Loaded!
+# Break key hit
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 19:14:50 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# Loading work.rotate_CU
+# ** Error: (vsim-3043) Unresolved reference to 'dcder'.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 17
+# Error loading design
+# End time: 20:05:34 on Jan 27,2023, Elapsed time: 0:50:44
+# Errors: 3, Warnings: 2
+# Compile of shift_reg.v was successful.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 20:41:17 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# Loading work.dcder
+# Loading work.rotate_CU
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dcd'.  Expected 3, found 2.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/TB/dp/in_mem' as this is an index in an associative array.
+#     : C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v(13)
+#    Time: 100 ns  Iteration: 1  Instance: /TB/dp
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(28)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 28
+add wave -position end  sim:/TB/rd
+add wave -position end  sim:/TB/ready
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dcd'.  Expected 3, found 2.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# Compile of decoder.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.dcder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/TB/dp/in_mem' as this is an index in an associative array.
+#     : C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v(13)
+#    Time: 100 ns  Iteration: 1  Instance: /TB/dp
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(28)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 28
+# Compile of rotate_DP.v failed with 3 errors.
+# Compile of TB.v was successful.
+# Compile of rotate_DP.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of TB.v was successful.
+# Compile of rotate_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.rotate_DP
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire' is incompatible with 'wire[0:24]$[0:63]' for  port (in_mem):  Can't mix packed and unpacked types.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr File: C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# Compile of TB.v was successful.
+# Compile of rotate_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 20:41:17 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# Loading work.dcder
+# Loading work.rotate_CU
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dp'.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp File: C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire' is incompatible with 'wire[0:24]$[0:63]' for  port (in_mem):  Can't mix packed and unpacked types.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp File: C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(16): [TFMPC] - Missing connection for port 'co'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# Error loading design
+# End time: 21:03:21 on Jan 27,2023, Elapsed time: 0:22:04
+# Errors: 2, Warnings: 6
+# Compile of TB.v was successful.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 21:03:50 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# Loading work.dcder
+# Loading work.rotate_CU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+add wave -position end  sim:/TB/in_mem
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/TB/in_mem' as this is an index in an associative array.
+#     : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(13)
+#    Time: 100 ns  Iteration: 1  Instance: /TB
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(34)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 34
+# Compile of TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+run -all
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(34)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 34
+# Compile of TB.v failed with 3 errors.
+# Compile of TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd'.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/cu File: C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v Line: 18
+restart -f
+# No Design Loaded!
+# Compile of TB.v was successful.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 21:03:50 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# Loading work.dcder
+# Loading work.rotate_CU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+run -all
+# ** Warning: ** UI-Msg: (vsim-8147) Cannot display or load '/TB/in_mem' as this is an index in an associative array.
+#     : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(13)
+#    Time: 100 ns  Iteration: 1  Instance: /TB
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(27)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 27
+# Compile of TB.v failed with 3 errors.
+# Compile of TB.v failed with 1 errors.
+# Compile of rot_read.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of TB.v was successful.
+# Compile of rotate_DP.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of TB.v was successful.
+# Compile of rotate_DP.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of rotate_DP.v failed with 1 errors.
+# Compile of rotate_DP.v failed with 1 errors.
+# Compile of rotate_DP.v failed with 1 errors.
+# Compile of rotate_DP.v was successful.
+vsim -gui work.TB
+# End time: 22:24:46 on Jan 27,2023, Elapsed time: 1:20:56
+# Errors: 1, Warnings: 14
+# vsim -gui work.TB 
+# Start time: 22:24:46 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.rot_reader
+# Loading work.shift_reg
+# Loading work.dcder
+# Loading work.rotate_CU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'co'.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr File: C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+# Error loading design
+# End time: 22:24:46 on Jan 27,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of rotate_DP.v was successful.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 22:25:17 on Jan 27,2023
+# Loading work.TB
+# Loading work.rotate_DP
+# Loading work.rot_reader
+# Loading work.shift_reg
+# Loading work.dcder
+# Loading work.rotate_CU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+add wave -position end  sim:/TB/start
+add wave -position end  sim:/TB/clk
+add wave -position end  sim:/TB/rst
+add wave -position end  sim:/TB/ps
+add wave -position end  sim:/TB/ns
+add wave -position end  sim:/TB/co
+add wave -position end  sim:/TB/ready
+add wave -position end  sim:/TB/rd
+run -all
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(22)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 22
+# Compile of rotate_DP.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotate_DP
+run -all
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(22)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 22
+# Compile of rotate_DP.v was successful.
+# Compile of shift_reg.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotate_DP
+# Loading work.shift_reg
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'i'. The port definition is at: C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/dp/shr/dcd File: C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v Line: 13
+run -all
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+#  x
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(22)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 22
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shift_reg
+run -all
+# 21
+#  8
+# 41
+# 45
+# 15
+# 56
+# 14
+# 18
+#  2
+# 61
+# 28
+# 27
+#  0
+#  1
+# 62
+# 55
+# 20
+# 36
+# 44
+#  6
+# 25
+# 39
+#  3
+# 10
+# 43
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(22)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 22
+# Compile of shift_reg.v failed with 3 errors.
+# Compile of shift_reg.v failed with 1 errors.
+# Compile of shift_reg.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.shift_reg
+run -all
+# 21
+#  8
+# 41
+# 45
+# 15
+# 56
+# 14
+# 18
+#  2
+# 61
+# 28
+# 27
+#  0
+#  1
+# 62
+# 55
+# 20
+# 36
+# 44
+#  6
+# 25
+# 39
+#  3
+# 10
+# 43
+# ** Note: $stop    : C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v(22)
+#    Time: 2100 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v line 22
+# End time: 22:56:00 on Jan 27,2023, Elapsed time: 0:30:43
+# Errors: 0, Warnings: 1

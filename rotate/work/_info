@@ -1,0 +1,152 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/20.1
+vdcder
+!s110 1674839617
+!i10b 1
+!s100 J8zF0^[VfO[0`O3`Td59z1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBbn_Wja[H23?KBD^:4kjd2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/MyNote/Desktop/cad/ca2/rotate
+w1674839524
+8C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v
+FC:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v
+!i122 10
+L0 2 62
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1674839617.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/rotate/decoder.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vrot_reader
+!s110 1674843080
+!i10b 1
+!s100 3QJATF@O;WI5g11_T<8ko2
+R0
+I@0@H1b]^YR0CXM<O:fEoW2
+R1
+R2
+w1674843028
+8C:/Users/MyNote/Desktop/cad/ca2/rotate/rot_read.v
+FC:/Users/MyNote/Desktop/cad/ca2/rotate/rot_read.v
+!i122 20
+L0 2 14
+R3
+r1
+!s85 0
+31
+!s108 1674843080.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/rotate/rot_read.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/rotate/rot_read.v|
+!i113 1
+R4
+R5
+vrotate_CU
+!s110 1674837105
+!i10b 1
+!s100 zG13iK?nb[RI?DbSQa8?c3
+R0
+IKjiglAUMoJV694efi`CAZ2
+R1
+R2
+w1674836679
+8C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_CU.v
+FC:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_CU.v
+!i122 4
+L0 2 49
+R3
+r1
+!s85 0
+31
+!s108 1674837104.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_CU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_CU.v|
+!i113 1
+R4
+R5
+nrotate_@c@u
+vrotate_DP
+!s110 1674846997
+!i10b 1
+!s100 Li]4>^KP^Jh0@NTKkK@[S3
+R0
+I1nQ5@l5SW7b`[L_<_g2kz1
+R1
+R2
+w1674846830
+8C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v
+FC:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v
+!i122 26
+L0 1 16
+R3
+r1
+!s85 0
+31
+!s108 1674846997.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v|
+!i113 1
+R4
+R5
+nrotate_@d@p
+vshift_reg
+!s110 1674847395
+!i10b 1
+!s100 l7e6;QJYfihm5l6Ha1eX20
+R0
+I2UdWPGm[=0l8Vd`?WNGQ[3
+R1
+R2
+w1674847391
+8C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v
+FC:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v
+!i122 29
+L0 1 65
+R3
+r1
+!s85 0
+31
+!s108 1674847395.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v|
+!i113 1
+R4
+R5
+vTB
+!s110 1674843173
+!i10b 1
+!s100 >R9EkC`lXOH@?oJU8^anK0
+R0
+I0OV?km[R2fIHMAPi[3Q2;2
+R1
+R2
+w1674843166
+8C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v
+FC:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v
+!i122 22
+L0 3 23
+R3
+r1
+!s85 0
+31
+!s108 1674843173.000000
+!s107 C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MyNote/Desktop/cad/ca2/rotate/TB.v|
+!i113 1
+R4
+R5
+n@t@b
