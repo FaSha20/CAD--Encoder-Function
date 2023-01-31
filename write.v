@@ -10,7 +10,7 @@ module writer (clk, en, pin);
 
    if(en)begin
 
-	fd = $fopen("./output_0.out", "w");
+	fd = $fopen("./file/output_0.out", "w");
         for (x = 0; x<64; x=x+1)begin
 	    $fwriteb(fd, pin[x]);
 	    $fdisplay(fd, "");

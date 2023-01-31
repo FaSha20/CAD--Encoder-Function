@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module file_reader(clk, ld, pout);
+module reader(clk, ld, pout);
   
   parameter N = 25;
   parameter M = 64;
@@ -9,9 +9,7 @@ module file_reader(clk, ld, pout);
   
   always @(posedge clk) begin
       if(ld)
-        $readmemb("./input_0.in", pout);
+        $readmemb("./colpar_out.txt", pout);
    end
    
 endmodule
-
-

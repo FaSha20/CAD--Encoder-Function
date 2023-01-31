@@ -1,0 +1,36 @@
+C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_CU.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_CU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rotate_CU
+
+Top level modules:
+	rotate_CU
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate_DP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rotate_DP
+
+Top level modules:
+	rotate_DP
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate/rotate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rotate
+
+Top level modules:
+	rotate
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate/shift_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_reg
+
+Top level modules:
+	shift_reg
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate/rot_read.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate/rot_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rot_reader
+
+Top level modules:
+	rot_reader
+
+} {} {}}

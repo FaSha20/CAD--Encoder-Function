@@ -1,0 +1,14 @@
+module rotate_DP(
+	clk, 
+	rd
+);
+	input clk;
+	input rd;
+	
+	wire [0:24] in_mem [0:63];
+
+	rot_reader rdd(clk, rd, in_mem);
+
+	shift_reg shr(clk, in_mem, co);
+
+endmodule

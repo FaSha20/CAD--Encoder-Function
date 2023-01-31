@@ -2,24 +2,29 @@
 
 module TB();
 
-	reg start = 1'b0, clk = 1'b0,rst = 1'b1, ld = 1'b0, ld2 = 1'b0;
-	//wire [0:24] pout [0:63];
-	wire start_par, start_rot, start_per, start_rev, start_RC;
-	wire ready_par, ready_rot, ready_per, ready_rev, ready_RC;
-	wire[3:0] ps, ns;
-	wire ld_fw, ld_fr;
+	reg start = 1'b0, clk = 1'b0,rst = 1'b1;
+	wire start_par,
+    	start_rot, 
+    	start_per,  
+    	start_rev, 
+    	start_RC,
 
-DataPath dp(
+	ready_par, 
+	ready_rot, 
+	ready_per, 
+	ready_rev, 
+	ready_RC,
+	ready;
+	wire[3:0]ps,ns;
+
+    DataPath dp(
 	clk,
 	rst, 
-	start_par,
 	start_par,
     	start_rot, 
     	start_per,  
     	start_rev, 
     	start_RC,
-	ld_fr, 
-	ld_fw,
 
 	ready_par, 
 	ready_rot, 
@@ -28,7 +33,7 @@ DataPath dp(
 	ready_RC
 );
 
-controller cu(
+    Controller cu(
     clk,
     rst,
     start,
@@ -44,23 +49,17 @@ controller cu(
     start_per,  
     start_rev, 
     start_RC,
-    ld_fr, 
-    ld_fw,
     ps,
     ns
 );  
 	
-	//col_parity cpar(clk, rst, start, ready);
 		
-	always #20 clk = ~clk;
-	//file_reader fr(clk, ld, pout);	
-	//file_writer fw(clk, ld2, pout);
+	always #2 clk = ~clk;
 	initial begin
-		#20 rst = 1'b0;
-		#20 start = 1'b1;
-		#30 start = 1'b0;
-		//#25 ld2 = 1'b1;
-		#2000000
+		#5 rst = 1'b0;
+		#5 start = 1'b1;
+		#10 start = 1'b0;
+		#2000
 		#30 $stop;
 	end
 

@@ -1,15 +1,17 @@
 `timescale 1ns/1ns
-module reader(clk, ld, pout);
+module rot_reader(clk, ld, pout);
   
-  parameter N = 25;
-  parameter M = 64;
   input clk;
   input ld;
   output reg [0:24] pout [0:63];
   
   always @(posedge clk) begin
-      if(ld)
+      if(ld) begin
         $readmemb("./file/colpar_out.txt", pout);
+	$display(ld);
+      end
    end
    
 endmodule
+
+

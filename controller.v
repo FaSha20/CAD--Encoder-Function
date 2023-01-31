@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module controller (
+module Controller (
     clk,
     rst,
     start,
@@ -15,8 +15,6 @@ module controller (
     start_per,  
     start_rev, 
     start_RC,
-    ld_fr, 
-    ld_fw,
     ps,
     ns
 );  
@@ -32,9 +30,7 @@ module controller (
     start_rot, 
     start_per, 
     start_rev, 
-    start_RC,
-    ld_fr, 
-    ld_fw;
+    start_RC;
 	
     output reg [3:0] ps, ns;
 
@@ -56,10 +52,9 @@ module controller (
     
     always @(ps, start, ready_par, ready_rot, ready_per, ready_rev, ready_RC) begin
         case (ps)
-            IDLE:  ns = start ? READ : IDLE;
-            READ:  ns = COL;
+            IDLE:  ns = start ? COL : IDLE;
 	    COL: ns = ready_par ? COL : COL_PARITY;
-	    COL_PARITY:  ns = ready_par ? WRITE : COL_PARITY; 
+	    COL_PARITY:  ns = ready_par ? ROT : COL_PARITY; 
 	    ROT: ns = ready_rot ? ROT : ROTATE ;	
  	    ROTATE:  ns = ready_rot ? PER : ROTATE;
 	    PER: ns = ready_per ? PER : PERMUTE;
@@ -67,23 +62,20 @@ module controller (
 	    REV: ns = ready_rev ? REV : REVALUATE;
   	    REVALUATE:  ns = ready_rev ? RC : REVALUATE;
    	    RC: ns = ready_RC ? RC : ADD_RC;
-	    ADD_RC:  ns = ready_RC ? WRITE : ADD_RC;
-	    WRITE: ns = IDLE;
+	    ADD_RC:  ns = ready_RC ? IDLE : ADD_RC;
             default: ns = IDLE;
         endcase
     end
 
     always @(ps) begin
-        {ready, ld_fr, ld_fw, start_par, start_rot, start_per, start_rev, start_RC} = 0;
+        {ready, start_par, start_rot, start_per, start_rev, start_RC} = 0;
         case (ps)
             IDLE: ready = 1'b1;
-            READ: ld_fr = 1'b1;
 	    COL: start_par = 1'b1;
  	    ROT: start_rot = 1'b1;
 	    PER: start_per = 1'b1;
   	    REV: start_rev = 1'b1;
 	    RC: start_RC = 1'b1;
-	    WRITE: ld_fw = 1'b1;
         endcase
     end
 

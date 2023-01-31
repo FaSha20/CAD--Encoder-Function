@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module file_writer (clk, en, pin);
+module writer (clk, en, pin);
   
   input clk;
   input en;
