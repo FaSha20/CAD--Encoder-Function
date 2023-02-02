@@ -8,12 +8,13 @@ module TB();
     	start_per,  
     	start_rev, 
     	start_RC,
-
+	cnt_up,
 	ready_par, 
 	ready_rot, 
 	ready_per, 
 	ready_rev, 
 	ready_RC,
+	co,
 	ready;
 	wire[3:0]ps,ns;
 
@@ -25,12 +26,14 @@ module TB();
     	start_per,  
     	start_rev, 
     	start_RC,
+	cnt_up,
 
 	ready_par, 
 	ready_rot, 
 	ready_per, 
 	ready_rev, 
-	ready_RC
+	ready_RC,
+	co
 );
 
     Controller cu(
@@ -42,6 +45,7 @@ module TB();
     ready_per,  
     ready_rev,
     ready_RC,
+    co,
     
     ready,
     start_par,
@@ -49,6 +53,7 @@ module TB();
     start_per,  
     start_rev, 
     start_RC,
+    cnt_up,
     ps,
     ns
 );  

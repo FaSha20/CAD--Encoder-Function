@@ -12,12 +12,40 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	counter25
 
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rev_read.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rev_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rev_reader
+
+Top level modules:
+	rev_reader
+
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/col_parity_pre_depth.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/col_parity_pre_depth.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module col_parity_pre_depth
 
 Top level modules:
 	col_parity_pre_depth
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/addrc_read.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/addrc_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addrc_read
+
+Top level modules:
+	addrc_read
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/addrc_dp.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/addrc_dp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addrc_DP
+
+Top level modules:
+	addrc_DP
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/permute_CU.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/permute_CU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module permute_CU
+
+Top level modules:
+	permute_CU
 
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate_DP.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate_DP.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -47,13 +75,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	writer
 
-} {} {}} C:/Users/MyNote/Desktop/cad/ca2/read.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/read.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module reader
-
-Top level modules:
-	reader
-
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/controller.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/controller.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Controller
@@ -61,12 +82,47 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Controller
 
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/Permuter.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/Permuter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module permuter
+
+Top level modules:
+	permuter
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/read.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reader
+
+Top level modules:
+	reader
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/MUX3Dto1.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/MUX3Dto1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX3Dto1
+
+Top level modules:
+	MUX3Dto1
+
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/counter5.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/counter5.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Counter5
 
 Top level modules:
 	Counter5
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/permute_DP.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/permute_DP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module permute_DP
+
+Top level modules:
+	permute_DP
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/addRC.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/addRC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addRC
+
+Top level modules:
+	addRC
 
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/TB.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -89,12 +145,47 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DataPath
 
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/Reval-counter.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/Reval-counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/Colparity-controller.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/Colparity-controller.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ColparCU
 
 Top level modules:
 	ColparCU
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rot_read.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rot_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rot_reader
+
+Top level modules:
+	rot_reader
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/revaluate.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/revaluate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module revaluate
+
+Top level modules:
+	revaluate
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/memory.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/per_reader.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/per_reader.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module per_reader
+
+Top level modules:
+	per_reader
 
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/file_reader.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/file_reader.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -103,12 +194,50 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	file_reader
 
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/permute.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/permute.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module permute
+
+Top level modules:
+	permute
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/Reval-controller.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/Reval-controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RevaluateCU
+
+Top level modules:
+	RevaluateCU
+
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/file_writer.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/file_writer.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module file_writer
 
 Top level modules:
 	file_writer
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/Reval_dp.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/Reval_dp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RevaluateDP
+
+Top level modules:
+	RevaluateDP
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/register.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/ISA.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/ISA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/addrc_cu.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/addrc_cu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addrc_CU
+
+Top level modules:
+	addrc_CU
 
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/col_parity_curr_depth.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/col_parity_curr_depth.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -117,12 +246,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	col_parity_curr_depth
 
-} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate_CU.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate_CU.v
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/Calparity-datapath.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/Calparity-datapath.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module rotate_CU
+-- Compiling module ColparDP
 
 Top level modules:
-	rotate_CU
+	ColparDP
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/counter24.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/counter24.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter24
+
+Top level modules:
+	counter24
+
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/col_parity.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/col_parity.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module col_parity
+
+Top level modules:
+	col_parity
 
 } {} {}} C:/Users/MyNote/Desktop/cad/ca2/register25b.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/register25b.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -131,11 +274,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	register25b
 
-} {} {}} C:/Users/MyNote/Desktop/cad/ca2/col_parity.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/col_parity.v
+} {} {}} C:/Users/MyNote/Desktop/cad/ca2/rotate_CU.v {1 {vlog -work work -stats=none C:/Users/MyNote/Desktop/cad/ca2/rotate_CU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module col_parity
+-- Compiling module rotate_CU
 
 Top level modules:
-	col_parity
+	rotate_CU
 
 } {} {}}

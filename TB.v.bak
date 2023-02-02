@@ -59,7 +59,7 @@ module TB();
 		#5 rst = 1'b0;
 		#5 start = 1'b1;
 		#10 start = 1'b0;
-		#2000
+		#20000
 		#30 $stop;
 	end
 

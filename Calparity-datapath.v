@@ -77,11 +77,9 @@ module ColparDP(clk, rst, ld_fr, ld_r, en_fw, init0_c64, init0_c25, en_c64, en_c
                     .rst(rst), 
                     .en(en_fw), 
                     .pin(finalXOR), 
-                    .co(co_c25)
+                    .co(co_c25),
+		    .co64(co_c64)
                     );
-  initial begin
-     $readmemb("./file/colpar_out.txt", pout); 
-  end
 
 endmodule
 

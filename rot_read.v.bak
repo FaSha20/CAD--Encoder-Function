@@ -8,7 +8,6 @@ module rot_reader(clk, ld, pout);
   always @(posedge clk) begin
       if(ld) begin
         $readmemb("./file/colpar_out.txt", pout);
-	$display(ld);
       end
    end
    

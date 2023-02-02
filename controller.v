@@ -8,6 +8,7 @@ module Controller (
     ready_per,  
     ready_rev,
     ready_RC,
+    co,
     
     ready,
     start_par,
@@ -15,6 +16,7 @@ module Controller (
     start_per,  
     start_rev, 
     start_RC,
+    cnt_up,
     ps,
     ns
 );  
@@ -24,33 +26,34 @@ module Controller (
 	ready_rot, 
 	ready_per, 
 	ready_rev, 
-	ready_RC;
+	ready_RC,
+	co;
     output reg ready,
     start_par,
     start_rot, 
     start_per, 
     start_rev, 
-    start_RC;
+    start_RC,
+    cnt_up;
 	
     output reg [3:0] ps, ns;
 
     parameter [3:0] 
         IDLE = 4'd0,
-        READ = 4'd1,
-	COL = 4'd2,
-        COL_PARITY = 4'd3,
-	ROT = 4'd4,
-	ROTATE = 4'd5,
-	PER = 4'd6,
-        PERMUTE = 4'd7,
-	REV = 4'd8,
-        REVALUATE = 4'd9,
-	RC = 4'd10, 
-	ADD_RC = 4'd11,
-	WRITE = 4'd12;
+	COL = 4'd1,
+        COL_PARITY = 4'd2,
+	ROT = 4'd3,
+	ROTATE = 4'd4,
+	PER = 4'd5,
+        PERMUTE = 4'd6,
+	REV = 4'd7,
+        REVALUATE = 4'd8,
+	RC = 4'd9, 
+	ADD_RC = 4'd10,
+	COUNT = 4'd11;
 
     
-    always @(ps, start, ready_par, ready_rot, ready_per, ready_rev, ready_RC) begin
+    always @(ps, start, ready_par, ready_rot, ready_per, ready_rev, ready_RC, co) begin
         case (ps)
             IDLE:  ns = start ? COL : IDLE;
 	    COL: ns = ready_par ? COL : COL_PARITY;
@@ -60,15 +63,17 @@ module Controller (
 	    PER: ns = ready_per ? PER : PERMUTE;
 	    PERMUTE:  ns = ready_per ? REV : PERMUTE;
 	    REV: ns = ready_rev ? REV : REVALUATE;
-  	    REVALUATE:  ns = ready_rev ? RC : REVALUATE;
+  	   // REVALUATE:  ns = ready_rev ? RC : REVALUATE;
+	    REVALUATE:  ns = RC;
    	    RC: ns = ready_RC ? RC : ADD_RC;
-	    ADD_RC:  ns = ready_RC ? IDLE : ADD_RC;
+	    ADD_RC:  ns = ready_RC ? COUNT : ADD_RC;
+	    COUNT: ns = co ? IDLE : COL;
             default: ns = IDLE;
         endcase
     end
 
     always @(ps) begin
-        {ready, start_par, start_rot, start_per, start_rev, start_RC} = 0;
+        {ready, start_par, start_rot, start_per, start_rev, start_RC, cnt_up} = 0;
         case (ps)
             IDLE: ready = 1'b1;
 	    COL: start_par = 1'b1;
@@ -76,6 +81,7 @@ module Controller (
 	    PER: start_per = 1'b1;
   	    REV: start_rev = 1'b1;
 	    RC: start_RC = 1'b1;
+	    COUNT: cnt_up = 1'b1;
         endcase
     end
 

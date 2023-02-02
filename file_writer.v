@@ -1,11 +1,12 @@
 `timescale 1ns/1ns
-module file_writer (clk, rst, en, pin, co);
+module file_writer (clk, rst, en, pin, co, co64);
   
   input clk;
   input rst;
   input en;
   input pin;
   input co;
+  input co64;
   
   integer fd;         // file handler  
 
@@ -14,11 +15,18 @@ module file_writer (clk, rst, en, pin, co);
   end
 
   always @(posedge clk) begin
+    
     if(en) begin
       $fwriteb(fd, pin);
-      if(co)
-        $fdisplay(fd, "");    
-    end    
+      if(co) begin
+        $fdisplay(fd, "");
+	if(co64)
+        $fclose(fd);	
+	end    
+    end  
+    //$display(co64);
+    //if(co64)
+	//$fclose(fd);  
   end
 
 endmodule
